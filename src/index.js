@@ -7,6 +7,8 @@ if (!target) {
   throw Error('target must be set');
 }
 
+console.log('target', target);
+
 const port = PORT ? Number(PORT) : 3000;
 
 const app = express();
