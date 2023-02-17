@@ -1,5 +1,7 @@
 # Request forwarding
 
+[![Docker](https://github.com/nexys-system/fwd-request/actions/workflows/publish.yml/badge.svg)](https://github.com/nexys-system/fwd-request/actions/workflows/publish.yml)
+
 based on https://stackoverflow.com/a/52859434/1659569
 
 ## Run
