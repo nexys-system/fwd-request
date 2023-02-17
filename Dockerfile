@@ -11,6 +11,8 @@ RUN yarn install
 
 # if an asset folder is present do not forget to uncomment this line
 
+COPY src src
+
 RUN echo "git sha $GIT_SHA_ENV version $GIT_VERSION_ENV"
 
 # run with arg to be able to display the SHA in the app
